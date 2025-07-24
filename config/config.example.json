@@ -1,0 +1,23 @@
+{
+  "discord": {
+    "webhook_url": "YOUR_WEBHOOK_URL_HERE",
+    "token": "YOUR_BOT_TOKEN_HERE",
+    "channel_id": "YOUR_CHANNEL_ID_HERE",
+    "test_message": "Discord Image Uploader ist bereit!",
+    "send_test_message": true
+  },
+  "watcher": {
+    "folder_path": "C:\\Users\\YourUsername\\Pictures\\Screenshots",
+    "supported_formats": [".png", ".jpg", ".jpeg", ".gif", ".webp"],
+    "delete_after_upload": false
+  },
+  "upload": {
+    "batch_size": 5,
+    "interval_seconds": 10,
+    "max_file_size_mb": 8
+  },
+  "history": {
+    "file_path": "data/upload_history.json",
+    "cleanup_missing_files": true
+  }
+}
